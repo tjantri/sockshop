@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: session-db
-        image: 10.55.19.69/docer.io/redis:alpine
+        image: 10.55.19.69/docker.io/redis:alpine
         ports:
         - name: redis
           containerPort: 6379

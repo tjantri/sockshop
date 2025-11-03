@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: rabbitmq
-        image: 10.55.19.69/docer.io/rabbitmq:3.6.8-management
+        image: 10.55.19.69/docker.io/rabbitmq:3.6.8-management
         ports:
         - containerPort: 15672
           name: management
