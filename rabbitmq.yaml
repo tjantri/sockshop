@@ -36,7 +36,7 @@ spec:
               - DAC_OVERRIDE
           readOnlyRootFilesystem: true
       - name: rabbitmq-exporter
-        image: 10.55.19.69/docer.io/kbudde/rabbitmq-exporter
+        image: 10.55.19.69/docker.io/kbudde/rabbitmq-exporter
         ports:
         - containerPort: 9090
           name: exporter
