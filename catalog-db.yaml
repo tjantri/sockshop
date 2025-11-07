@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: catalogue-db
-        image: 10.55.19.69/docker.io/weaveworksdemos/catalogue-db
+        image: registry.ntnxlab.local/shop/catalogue-db
         env:
           - name: MYSQL_ROOT_PASSWORD
             value: fake_password
