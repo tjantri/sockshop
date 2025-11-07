@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: orders-db
-        image: 10.55.19.69/docker.io/mongo
+        image: registry.ntnxlab.local/shop/mongo
         ports:
         - name: mongo
           containerPort: 27017
